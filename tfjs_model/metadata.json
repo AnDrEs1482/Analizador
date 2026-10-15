@@ -1,0 +1,21 @@
+{
+  "class_names": [
+    "seca",
+    "grasa",
+    "mixta",
+    "sensible",
+    "normal"
+  ],
+  "img_size": 224,
+  "fitz_mapping": {
+    "1": "sensible",
+    "2": "seca",
+    "3": "normal",
+    "4": "mixta",
+    "5": "grasa",
+    "6": "grasa"
+  },
+  "model_type": "MobileNetV2 + custom head",
+  "training_samples": 1600,
+  "val_accuracy": 0.4747474789619446
+}
